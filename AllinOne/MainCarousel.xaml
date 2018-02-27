@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AllinOne.MainCarousel">
+	 <ContentPage>
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Image x:Name="clockimg" Source="clock.png" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" HorizontalOptions="Center"></Image> 
+
+                <Label Text="Clock" HorizontalOptions="Center">
+                </Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Image x:Name="mapsimg" Source="map.png" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" HorizontalOptions="Center"></Image> 
+
+              <!--  <Button HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" Image="map.png" Clicked="Map_Clicked"/>-->
+                <Label Text="Maps" HorizontalOptions="Center">
+                </Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Image x:Name="calculatorimg" Source="calculator.png" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" HorizontalOptions="Center"></Image> 
+
+         <!--        <Button HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" Image="calculator.png" Clicked="Calculator_Clicked"/>-->
+                <Label Text="Calculator" HorizontalOptions="Center">
+                </Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+     <ContentPage>
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Image x:Name="cameraimg" Source="camera.png" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" HorizontalOptions="Center"></Image> 
+
+                <!-- <Button HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" Image="calculator.png" Clicked="Calculator_Clicked"/>-->
+                <Label Text="Camera" HorizontalOptions="Center">
+                </Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+</CarouselPage>
