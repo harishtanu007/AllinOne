@@ -4,14 +4,6 @@ Function=xamarin_GetFolderPath
 	/Users/syamanth/projects/AllinOne/iOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1/mtouch-cache/Link/mscorlib.dll
 Function=xamarin_log
 	/Users/syamanth/projects/AllinOne/iOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1/mtouch-cache/Link/mscorlib.dll
-Function=UIApplicationMain
-	/Users/syamanth/projects/AllinOne/iOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1/mtouch-cache/Link/Xamarin.iOS.dll
-Function=xamarin_get_block_descriptor
-	/Users/syamanth/projects/AllinOne/iOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1/mtouch-cache/Link/Xamarin.iOS.dll
-Function=xamarin_IntPtr_objc_msgSend_IntPtr
-	/Users/syamanth/projects/AllinOne/iOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1/mtouch-cache/Link/Xamarin.iOS.dll
-Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
-	/Users/syamanth/projects/AllinOne/iOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1/mtouch-cache/Link/Xamarin.iOS.dll
 Function=CreateZStream
 	/Users/syamanth/projects/AllinOne/iOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1/mtouch-cache/Link/System.dll
 Function=CloseZStream
@@ -24,4 +16,12 @@ Function=WriteZStream
 	/Users/syamanth/projects/AllinOne/iOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1/mtouch-cache/Link/System.dll
 Function=xamarin_start_wwan
 	/Users/syamanth/projects/AllinOne/iOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1/mtouch-cache/Link/System.dll
+Function=UIApplicationMain
+	/Users/syamanth/projects/AllinOne/iOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/syamanth/projects/AllinOne/iOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/syamanth/projects/AllinOne/iOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/syamanth/projects/AllinOne/iOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1/mtouch-cache/Link/Xamarin.iOS.dll
 Function=mono_pmip

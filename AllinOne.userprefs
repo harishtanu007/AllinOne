@@ -1,7 +1,15 @@
 ﻿<Properties StartupConfiguration="{C37BE943-A365-4374-BD14-CCA8FF05774B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AllinOne/CameraPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AllinOne/GalleryPage.xaml.cs">
     <Files>
-      <File FileName="AllinOne/CameraPage.xaml.cs" Line="16" Column="35" />
+      <File FileName="AllinOne/GalleryPage.xaml" Line="6" Column="1" />
+      <File FileName="AllinOne/GalleryPage.xaml.cs" Line="51" Column="75" />
+      <File FileName="AllinOne/CameraPage.xaml.cs" Line="74" Column="10" />
+      <File FileName="Droid/Android_dependency.cs" Line="13" Column="55" />
+      <File FileName="iOS/Ios_Dependency.cs" Line="56" Column="46" />
+      <File FileName="AllinOne/ICameraGallery.cs" Line="7" Column="29" />
+      <File FileName="Droid/BitmapHelpers.cs" Line="77" Column="42" />
+      <File FileName="Droid/MainActivity.cs" Line="92" Column="20" />
+      <File FileName="AllinOne/MainCarousel.xaml" Line="64" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

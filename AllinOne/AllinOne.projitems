@@ -53,6 +53,26 @@
     <Compile Include="$(MSBuildThisFileDirectory)CameraPage.xaml.cs">
       <DependentUpon>CameraPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)DialerPage.xaml.cs">
+      <DependentUpon>DialerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)VideoPlayerPage.xaml.cs">
+      <DependentUpon>VideoPlayerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)FormsVideoLibrary\FileVideoSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FormsVideoLibrary\IVideoPicker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FormsVideoLibrary\IVideoPlayerController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FormsVideoLibrary\PositionSlider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FormsVideoLibrary\ResourceVideoSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FormsVideoLibrary\UriVideoSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FormsVideoLibrary\VideoInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FormsVideoLibrary\VideoPlayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FormsVideoLibrary\VideoSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FormsVideoLibrary\VideoSourceConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FormsVideoLibrary\VideoStatus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GalleryPage.xaml.cs">
+      <DependentUpon>GalleryPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\AboutPage.xaml" />
@@ -77,6 +97,18 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)CameraPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)DialerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)VideoPlayerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)GalleryPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

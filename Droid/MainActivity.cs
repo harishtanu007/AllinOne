@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Threading.Tasks;
 using Android.App;
 using Android.Content;
 using Android.Content.PM;
@@ -14,6 +14,7 @@ using Xamarin.Forms;
 using Android.Database;
 using Android.Provider;
 
+
 namespace AllinOne.Droid
 {
     public static class AppClass
@@ -27,6 +28,7 @@ namespace AllinOne.Droid
     {public bool IsCamera;
         protected override void OnCreate(Bundle bundle)
         {
+            Current = this;
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
@@ -36,12 +38,29 @@ namespace AllinOne.Droid
 
             LoadApplication(new App());
         }
+        // Field, properties, and method for Video Picker
+        public static MainActivity Current { private set; get; }
 
+        public static readonly int PickImageId = 1000;
+
+        public TaskCompletionSource<string> PickImageTaskCompletionSource { set; get; }
         protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
         {
             IsCamera = CameraPage.IsCamera;
             base.OnActivityResult(requestCode, resultCode, data);
-            if (IsCamera == true)
+            if (requestCode == PickImageId)
+            {
+                if ((resultCode == Result.Ok) && (data != null))
+                {
+                    // Set the filename as the completion of the Task
+                    PickImageTaskCompletionSource.SetResult(data.DataString);
+                }
+                else
+                {
+                    PickImageTaskCompletionSource.SetResult(null);
+                }
+            }
+            if (true)
             {
                 Intent mediaScanIntent = new Intent(Intent.ActionMediaScannerScanFile);
                 Uri contentUri = Uri.FromFile(AppClass._file);
@@ -69,7 +88,8 @@ namespace AllinOne.Droid
 
                 CameraPage.Cameraimage(bitmapData);
             }
-            else
+
+            if(true)
             {
                 if (requestCode == 1)
                 {

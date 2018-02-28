@@ -1,3 +1,7 @@
+FormsVideoLibrary.Droid.VideoPlayerRenderer, AllinOne.Droid;md5310821bd4e17cd2ce177bf6fa10452ba.VideoPlayerRenderer
+FormsVideoLibrary.Droid.VideoPlayerRenderer, AllinOne.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5310821bd4e17cd2ce177bf6fa10452ba.VideoPlayerRenderer
+FormsVideoLibrary.Droid.VideoPlayerRenderer;md5310821bd4e17cd2ce177bf6fa10452ba.VideoPlayerRenderer
+formsvideolibrary.droid.VideoPlayerRenderer;md5310821bd4e17cd2ce177bf6fa10452ba.VideoPlayerRenderer
 AllinOne.Droid.MainActivity, AllinOne.Droid;md5db4d9b3f38c7df483bfa0aa1807b429f.MainActivity
 AllinOne.Droid.MainActivity, AllinOne.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5db4d9b3f38c7df483bfa0aa1807b429f.MainActivity
 AllinOne.Droid.MainActivity;md5db4d9b3f38c7df483bfa0aa1807b429f.MainActivity

@@ -10,6 +10,7 @@ namespace AllinOne
         public MapsPage()
         {
             InitializeComponent();
+           // Device.OpenUri(new Uri(String.Format("tel:{0}", "8801000264")));
         }
     }
 }

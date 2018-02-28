@@ -10,17 +10,7 @@
             </StackLayout>
         </ContentPage.Content>
     </ContentPage>
-    <ContentPage>
-        <ContentPage.Content>
-            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-                <Image x:Name="mapsimg" Source="map.png" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" HorizontalOptions="Center"></Image> 
-
-              <!--  <Button HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" Image="map.png" Clicked="Map_Clicked"/>-->
-                <Label Text="Maps" HorizontalOptions="Center">
-                </Label>
-            </StackLayout>
-        </ContentPage.Content>
-    </ContentPage>
+   
     <ContentPage>
         <ContentPage.Content>
             <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
@@ -39,6 +29,50 @@
 
                 <!-- <Button HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" Image="calculator.png" Clicked="Calculator_Clicked"/>-->
                 <Label Text="Camera" HorizontalOptions="Center">
+                </Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+     <ContentPage>
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Image x:Name="phoneimg" Source="phone.png" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" HorizontalOptions="Center"></Image> 
+
+                <!-- <Button HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" Image="calculator.png" Clicked="Calculator_Clicked"/>-->
+                <Label Text="Dialer" HorizontalOptions="Center">
+                </Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+     <ContentPage>
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Image x:Name="videoimg" Source="video.png" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" HorizontalOptions="Center"></Image> 
+
+                <!-- <Button HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" Image="calculator.png" Clicked="Calculator_Clicked"/>-->
+                <Label Text="Video Player" HorizontalOptions="Center">
+                </Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+       <ContentPage>
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Image x:Name="galleryimg" Source="picture.png" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" HorizontalOptions="Center"></Image> 
+
+              <!--  <Button HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" Image="map.png" Clicked="Map_Clicked"/>-->
+                <Label Text="Image Picker" HorizontalOptions="Center">
+                </Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+     <ContentPage>
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Image x:Name="mapsimg" Source="map.png" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" HorizontalOptions="Center"></Image> 
+
+              <!--  <Button HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" Image="map.png" Clicked="Map_Clicked"/>-->
+                <Label Text="Maps" HorizontalOptions="Center">
                 </Label>
             </StackLayout>
         </ContentPage.Content>

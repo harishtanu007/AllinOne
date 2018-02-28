@@ -74,7 +74,7 @@ namespace AllinOne.Droid
                 bitmap.Compress(Bitmap.CompressFormat.Jpeg, 50, stream);
                 byte[] bitmapData = stream.ToArray();
 
-                CameraPage.Galleryimage(bitmapData);
+                GalleryPage.Galleryimages(bitmapData);
 
                 bitmap.Recycle();
                 GC.Collect();

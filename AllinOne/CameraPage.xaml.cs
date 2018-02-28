@@ -12,7 +12,7 @@ namespace AllinOne
         public static Image img;
         public static bool IsCamera;
         public CameraPage()
-        {
+        {     IsCamera = true;
             InitializeComponent();
             DependencyService.Get<ICameraGallery>().CameraMedia();
             img = new Image()
@@ -61,7 +61,7 @@ namespace AllinOne
             {
                 HorizontalOptions = LayoutOptions.FillAndExpand,
                 VerticalOptions = LayoutOptions.FillAndExpand,
-                Children = { img, camera, gallery },
+                Children = { img, camera },
                 BackgroundColor = Color.Aqua
             };
 
@@ -71,7 +71,7 @@ namespace AllinOne
             };
 
             Content = scroll;
-          //  Padding = new Thickness(0, Device.OnPlatform(20, 0, 0), 0, 0);
+          Padding = new Thickness(0, Device.OnPlatform(20, 0, 0), 0, 0);
         }
         public static void Cameraimage(byte[] imagesource)
         {
@@ -79,10 +79,10 @@ namespace AllinOne
             img.Source = ImageSource.FromStream(() => new MemoryStream(imagesource));
         }
 
-        public static void Galleryimage(byte[] imagesource)
-        {
-            img.Source = null;
-            img.Source = ImageSource.FromStream(() => new MemoryStream(imagesource));
-        }
+        //public static void Galleryimage(byte[] imagesource)
+        //{
+        //    img.Source = null;
+        //    img.Source = ImageSource.FromStream(() => new MemoryStream(imagesource));
+        //}
     }
 }

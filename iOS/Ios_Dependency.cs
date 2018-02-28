@@ -53,7 +53,7 @@ namespace AllinOne.iOS
                     byte[] myByteArray = new byte[pngImage.Length];
                     System.Runtime.InteropServices.Marshal.Copy(pngImage.Bytes, myByteArray, 0, Convert.ToInt32(pngImage.Length));
 
-                    SamplePage.Galleryimage(myByteArray);
+                    GalleryPage.Galleryimages(myByteArray);
                 }
 
                 Device.BeginInvokeOnMainThread(() =>
