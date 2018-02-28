@@ -149,6 +149,7 @@
     <Compile Include="BitmapHelpers.cs" />
     <Compile Include="FormsVideoLibrary\VideoPicker.cs" />
     <Compile Include="FormsVideoLibrary\VideoPlayerRenderer.cs" />
+    <Compile Include="Services\SQLiteService.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon.png" />
@@ -166,6 +167,7 @@
     <AndroidResource Include="Resources\drawable\phone.png" />
     <AndroidResource Include="Resources\drawable\video.png" />
     <AndroidResource Include="Resources\drawable\picture.png" />
+    <AndroidResource Include="Resources\drawable\database.png" />
   </ItemGroup>
   <Import Project="..\AllinOne\AllinOne.projitems" Label="Shared" Condition="Exists('..\AllinOne\AllinOne.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

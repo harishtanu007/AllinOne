@@ -8,7 +8,7 @@ namespace AllinOne
 {
     public partial class VideoPlayerPage : ContentPage
     {
-       
+        public static bool IsVideo;
 
         async void Handle_Clicked(object sender, System.EventArgs e)
         {
@@ -30,6 +30,7 @@ namespace AllinOne
 
         public VideoPlayerPage()
         {
+            IsVideo = true;
             InitializeComponent();
         }
     }

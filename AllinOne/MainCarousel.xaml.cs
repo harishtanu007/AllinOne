@@ -63,6 +63,7 @@ namespace AllinOne
             {
                 // handle the tap 
                 /// DisplayAlert("see", sender.ToString()+e.ToString(), "Ok");
+                //DependencyService.Get<ICameraGallery>().CameraMedia();
                 Navigation.PushAsync(new CameraPage());
             }
             void tapImage_Tapped5(object sender, EventArgs e)

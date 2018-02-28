@@ -142,6 +142,7 @@
     <BundleResource Include="Resources\phone.png" />
     <BundleResource Include="Resources\video.png" />
     <BundleResource Include="Resources\picture.png" />
+    <BundleResource Include="Resources\database.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppDelegate.cs" />
@@ -149,6 +150,7 @@
     <Compile Include="Ios_Dependency.cs" />
     <Compile Include="FormsVideoLibrary\VideoPicker.cs" />
     <Compile Include="FormsVideoLibrary\VideoPlayerRenderer.cs" />
+    <Compile Include="Services\SQLiteService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Entitlements.plist" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AllinOne.MainCarousel">
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AllinOne.MainCarousel" Title="Swipe for more">
 	 <ContentPage>
         <ContentPage.Content>
             <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
@@ -69,10 +69,10 @@
      <ContentPage>
         <ContentPage.Content>
             <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-                <Image x:Name="mapsimg" Source="map.png" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" HorizontalOptions="Center"></Image> 
+                <Image x:Name="mapsimg" Source="database.png" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" HorizontalOptions="Center"></Image> 
 
               <!--  <Button HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="50" WidthRequest="50" Image="map.png" Clicked="Map_Clicked"/>-->
-                <Label Text="Maps" HorizontalOptions="Center">
+                <Label Text="Database" HorizontalOptions="Center">
                 </Label>
             </StackLayout>
         </ContentPage.Content>

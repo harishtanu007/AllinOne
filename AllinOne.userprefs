@@ -1,20 +1,29 @@
 ﻿<Properties StartupConfiguration="{C37BE943-A365-4374-BD14-CCA8FF05774B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AllinOne/GalleryPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AllinOne/VideoPlayerPage.xaml.cs">
     <Files>
-      <File FileName="AllinOne/GalleryPage.xaml" Line="6" Column="1" />
-      <File FileName="AllinOne/GalleryPage.xaml.cs" Line="51" Column="75" />
-      <File FileName="AllinOne/CameraPage.xaml.cs" Line="74" Column="10" />
-      <File FileName="Droid/Android_dependency.cs" Line="13" Column="55" />
-      <File FileName="iOS/Ios_Dependency.cs" Line="56" Column="46" />
-      <File FileName="AllinOne/ICameraGallery.cs" Line="7" Column="29" />
+      <File FileName="AllinOne/CameraPage.xaml.cs" Line="13" Column="8" />
+      <File FileName="AllinOne/MainCarousel.xaml" Line="2" Column="169" />
+      <File FileName="AllinOne/MainCarousel.xaml.cs" Line="66" Column="19" />
+      <File FileName="AllinOne/GalleryPage.xaml.cs" Line="23" Column="46" />
+      <File FileName="AllinOne/MapsPage.xaml.cs" Line="12" Column="54" />
+      <File FileName="AllinOne/MapsPage.xaml" Line="51" Column="44" />
       <File FileName="Droid/BitmapHelpers.cs" Line="77" Column="42" />
-      <File FileName="Droid/MainActivity.cs" Line="92" Column="20" />
-      <File FileName="AllinOne/MainCarousel.xaml" Line="64" Column="42" />
+      <File FileName="Droid/Android_dependency.cs" Line="37" Column="44" />
+      <File FileName="AllinOne/ICameraGallery.cs" Line="7" Column="29" />
+      <File FileName="AllinOne/Data/TodoItemDatabase.cs" Line="1" Column="1" />
+      <File FileName="AllinOne/SharedResources.cs" Line="1" Column="1" />
+      <File FileName="AllinOne/SimpleCalculator.cs" Line="1" Column="1" />
+      <File FileName="AllinOne/VideoPlayerPage.xaml" Line="15" Column="1" />
+      <File FileName="Droid/Services/SQLiteService.cs" Line="6" Column="38" />
+      <File FileName="Droid/MainActivity.cs" Line="51" Column="37" />
+      <File FileName="AllinOne/VideoPlayerPage.xaml.cs" Line="33" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/syamanth/projects/AllinOne/Droid/Services/SQLiteService.cs" relfile="Droid/Services/SQLiteService.cs" line="15" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

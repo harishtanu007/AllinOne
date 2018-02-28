@@ -26,6 +26,7 @@ namespace AllinOne.Droid
     [Activity(Label = "AllinOne.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {public bool IsCamera;
+        public bool IsVideo; 
         protected override void OnCreate(Bundle bundle)
         {
             Current = this;
@@ -47,6 +48,8 @@ namespace AllinOne.Droid
         protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
         {
             IsCamera = CameraPage.IsCamera;
+            IsVideo = VideoPlayerPage.IsVideo;
+
             base.OnActivityResult(requestCode, resultCode, data);
             if (requestCode == PickImageId)
             {
@@ -60,7 +63,7 @@ namespace AllinOne.Droid
                     PickImageTaskCompletionSource.SetResult(null);
                 }
             }
-            if (true)
+            if (IsCamera)
             {
                 Intent mediaScanIntent = new Intent(Intent.ActionMediaScannerScanFile);
                 Uri contentUri = Uri.FromFile(AppClass._file);

@@ -13,23 +13,27 @@ namespace AllinOne
         public static bool IsCamera;
         public CameraPage()
         {     IsCamera = true;
-            InitializeComponent();
             DependencyService.Get<ICameraGallery>().CameraMedia();
+            InitializeComponent();
+           
+
             img = new Image()
             {
                 HorizontalOptions = LayoutOptions.FillAndExpand,
                 VerticalOptions = LayoutOptions.FillAndExpand,
-                BackgroundColor = Color.Gray
+                BackgroundColor = Color.White
             };
             Button camera = new Button()
             {
                 Text = "Camera",
-                TextColor = Color.White,
-                HorizontalOptions = LayoutOptions.FillAndExpand,
+                HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.Center,
-                BackgroundColor = Color.Accent
-            };
+            
+              
 
+
+            };
+           
             camera.Clicked += (object sender, EventArgs e) =>
             {try
                 {
@@ -61,8 +65,8 @@ namespace AllinOne
             {
                 HorizontalOptions = LayoutOptions.FillAndExpand,
                 VerticalOptions = LayoutOptions.FillAndExpand,
-                Children = { img, camera },
-                BackgroundColor = Color.Aqua
+                BackgroundColor=Color.White,
+                Children = { img, camera }
             };
 
             ScrollView scroll = new ScrollView()
@@ -75,8 +79,10 @@ namespace AllinOne
         }
         public static void Cameraimage(byte[] imagesource)
         {
+            
             img.Source = null;
             img.Source = ImageSource.FromStream(() => new MemoryStream(imagesource));
+
         }
 
         //public static void Galleryimage(byte[] imagesource)
